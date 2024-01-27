@@ -1,0 +1,235 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+    html,body{
+    justify-content: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-color: lightslategray;
+}
+nav{
+    letter-spacing: 1px;
+    margin-top: 1%;
+    margin-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 10%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav :hover{
+    color: blue;
+    text-decoration: underline;
+}
+.home{
+    padding-right: 10%;
+    color:orangered;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+gap: 20px;
+list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+main{
+    margin-top: 16%;
+    margin-left: 7%;
+    display: flex;
+    text-align: center;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+   background-size: cover;
+}
+ main box{
+    color: yellow;
+    width: 40%;
+    height: 300px;
+
+    
+}
+ .was{
+    font-weight: 900;
+    font-size: 27px;
+    color: #fff;
+    word-spacing: 3px;
+    
+}
+.was2{
+    font-weight: 900;
+    font-size: 47px;
+color: orangered;
+}
+.was3{
+    color: #fff;
+    font-size: 34px;
+}
+.was5{
+    all: unset;
+    font-size: 16px;
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    width: 25%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+.was4{
+    color: antiquewhite;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    
+    margin-left: 500px;
+    width:250px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+ .home1{
+    all: unset;
+    margin-left: 21px;
+    margin-top: 17px;
+    color:darkgoldenrod;
+    border: 300px;
+    background-color: rgba(255, 255, 255, 0.856);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left :5px;
+    padding-right: 5px;
+    border-radius: 9px;
+     width: 200px;
+     text-align: center;
+     font-weight: 900;
+     font-size: 18px;
+}
+.box input{
+    all: unset;
+    margin-left: 22px;
+    margin-top: 10%;
+    font-weight: 600;
+    border-color: #fff;
+}
+.box ::placeholder{
+    color: #fff;
+    border-color:yellow;
+}
+.home2{
+    all: unset;
+    margin-left: 21px;
+    margin-top: 17px;
+    color:black;
+    border: 300px;
+    background-color: orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left :5px;
+    padding-right: 5px;
+    border-radius: 9px;
+     width: 200px;
+     text-align: center;
+     font-weight: 900;
+     font-size: 18px;
+}
+.box h3{
+    margin-top: 10%;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+.box h4{
+    display: flex;
+    margin-top: 3px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 44px;
+    word-spacing: 2px;
+    
+}
+.box p{
+    color: #fff;
+    margin-left: 10px;
+}
+.box h5{
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.box footer{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+#content{
+    font-weight: 900;
+    padding-bottom: 40%;
+    margin-left: 75%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.form{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.form input{
+    all: unset;
+    width: 60%;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #000;
+}
+.form input::placeholder{
+    color:#fff;
+    font-size: 14px;
+    padding: 10px 10px  ;
+}
+.form button{
+    all: unset;
+    padding: 7px;
+    border-radius: 6px;
+    width: 20%;
+    font-size: 10px;
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+}
+.g{
+    align-items: center;
+    font-size: 11px;
+    margin-left: 7px;
+
+}
